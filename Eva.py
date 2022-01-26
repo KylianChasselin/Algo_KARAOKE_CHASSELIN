@@ -6,10 +6,10 @@ class player:
         self.__joueur = player
         self.__chanson = 4
 
-    def getscoreJoueur(self):
+    def getscore(self):
         return self.__score
 
-    def getplayer(self):
+    def getjoueur(self):
         return self.__joueur
 
 
@@ -48,8 +48,27 @@ while (scoreObtenue != scoreMax) :
 
 #-------
 
+
+choixChanson = int(input("choisissez votre chanson entre 1 et 5"))
+
 chanson1 = karaoke ("venom",scoreTotal, 1)
-chanson2 = karaoke ("",scoreTotal, 2)
-chanson3 = karaoke ("",scoreTotal, 3)
-chanson4 = karaoke ("",scoreTotal, 4)
-chanson5 = karaoke ("",scoreTotal, 5)
+chanson2 = karaoke ("Mayhem",scoreTotal, 2)
+chanson3 = karaoke ("Looser",scoreTotal, 3)
+chanson4 = karaoke ("My sanctuary",scoreTotal, 4)
+chanson5 = karaoke ("Wap",scoreTotal, 5)
+
+if choixChanson == 1 :
+    print("vous avez choisi Venom, preparez vous a chanter")
+    scorechanson1 = input("donnez votre score")
+elif choixChanson == 2 :
+    print("vous avez choisi Mayhem, preparez vous a chanter")
+    scorechanson2 = input("donnez votre score")
+elif choixChanson == 3 :
+    print("vous avez choisi Looser, preparez vous a chanter")
+    scorechanson3 = input("donnez votre score")
+elif choixChanson == 4 :
+    print("vous avez choisi My sanctuary, preparez vous a chanter")
+    scorechanson4 = input("donnez votre score")
+elif choixChanson == 5 :
+    print("vous avez choisi Wap, preparez vous a chanter")
+    scorechanson5 = input("donnez votre score")
