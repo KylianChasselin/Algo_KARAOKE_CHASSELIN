@@ -60,15 +60,54 @@ chanson5 = karaoke ("Wap",scoreTotal, 5)
 if choixChanson == 1 :
     print("vous avez choisi Venom, preparez vous a chanter")
     scorechanson1 = input("donnez votre score")
+    if(scoreObtenue >= scoreMin):
+        scoreTotal = scoreObtenue
+    elif (scoreObtenue >= scoreMax) : 
+        print("vous avez le score MAX ! --> ", scoreMax)
+        scoreTotal = scoreTotal + scoreMax
+    elif (scoreObtenue < scoreMin) :
+        print("votre score n'est pas valable, veuillez entré de nouveau votre score")
+
 elif choixChanson == 2 :
     print("vous avez choisi Mayhem, preparez vous a chanter")
     scorechanson2 = input("donnez votre score")
+    if(scoreObtenue >= scoreMin):
+        scoreTotal = scoreObtenue
+    elif (scoreObtenue >= scoreMax) : 
+        print("vous avez le score MAX ! --> ", scoreMax)
+        scoreTotal = scoreTotal + scoreMax
+    elif (scoreObtenue < scoreMin) :
+        print("votre score n'est pas valable, veuillez entré de nouveau votre score")
+
 elif choixChanson == 3 :
     print("vous avez choisi Looser, preparez vous a chanter")
     scorechanson3 = input("donnez votre score")
+    if(scoreObtenue >= scoreMin):
+        scoreTotal = scoreObtenue
+    elif (scoreObtenue >= scoreMax) : 
+        print("vous avez le score MAX ! --> ", scoreMax)
+        scoreTotal = scoreTotal + scoreMax
+    elif (scoreObtenue < scoreMin) :
+        print("votre score n'est pas valable, veuillez entré de nouveau votre score")
+
 elif choixChanson == 4 :
     print("vous avez choisi My sanctuary, preparez vous a chanter")
     scorechanson4 = input("donnez votre score")
+    if(scoreObtenue >= scoreMin):
+        scoreTotal = scoreObtenue
+    elif (scoreObtenue >= scoreMax) : 
+        print("vous avez le score MAX ! --> ", scoreMax)
+        scoreTotal = scoreTotal + scoreMax
+    elif (scoreObtenue < scoreMin) :
+        print("votre score n'est pas valable, veuillez entré de nouveau votre score")
+
 elif choixChanson == 5 :
     print("vous avez choisi Wap, preparez vous a chanter")
     scorechanson5 = input("donnez votre score")
+    if(scoreObtenue >= scoreMin):
+        scoreTotal = scoreObtenue
+    elif (scoreObtenue >= scoreMax) : 
+        print("vous avez le score MAX ! --> ", scoreMax)
+        scoreTotal = scoreTotal + scoreMax
+    elif (scoreObtenue < scoreMin) :
+        print("votre score n'est pas valable, veuillez entré de nouveau votre score")
